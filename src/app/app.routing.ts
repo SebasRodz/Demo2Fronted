@@ -8,8 +8,8 @@ import { VentanaComponent } from "./components/ventana/ventana.component";
 import { HomeComponent } from "./components/home/home.component";
 
 const appRouter = [
-    {path: "home", component: HomeComponent},
-    {path: "ventana", component: VentanaComponent},
+    {path: 'home', component: HomeComponent},
+    {path: 'ventana', component: VentanaComponent},
     {path: 'usuario', component: UsuarioComponent},
     {path: 'admin', component: AdminComponent},
     {path: 'login', component: LoginComponent},

@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
     if(contrasena==contrasena2){
       console.log(true);
     }else
-    alert("Contraseñas diferentes")
+    alert("Contraseñas diferentes");
   }
 
 }
